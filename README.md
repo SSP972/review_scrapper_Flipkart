@@ -2,7 +2,7 @@
 # Review scrapper
 
 
-A brief description of what this project does and who it's for
+Scrapping reviews and storing them in csv format also displaying on webpage with the help of flask
 
 
 ## Screenshots
