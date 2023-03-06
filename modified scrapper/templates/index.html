@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <title>Scrapping Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="/"><b>Search for feedback</b></a>
+            </li>
+        </ul>
+        </nav>
+        <div class="content">
+            <br>
+            <h1 style="text-align: center"><i>Search for the Product.</i></h1><br>
+            <h4 style="text-align: center"><b>Note:</b>If you are searching for product which contain numeric value in it add '-'
+                between the text and numeric value.<br>For eg. Iphone7 can be written as Iphone-7</h4><br><br>
+             <div class="form">
+                <form action="/" method="POST">
+                    <label><b>Enter product to be searched:</b></label> <input type="text" name="content" id="content" ><br><br>
+                    <label><b>Enter the expected review count you need:</b></label> <input type="text" name="expected_review" id="expected_review"><br><br>
+                    <!--<label><b>If you have id with you enter here:</b></label> <input type="text" name="id" id="id" ><br><br>-->
+                    <input type="submit" value="Search">
+                </form>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
