@@ -4,11 +4,11 @@ class ObjectRepository:
         print()
 
     def getUsernameforMongoDB(self):
-        username = "kavimaurya1997@gmail.com"
+        username = *****************       #enter your username before running this
         return username
 
     def getPasswordforMongoDB(self):
-        password = "Kavita@123"
+        password = *******************      #enter your password before running this
         return password
 
     def getLoginCloseButton(self):
